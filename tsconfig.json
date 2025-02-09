@@ -1,0 +1,23 @@
+{
+  "compilerOptions": {
+    "target": "es6",
+    "module": "esnext",
+    "moduleResolution": "node",
+    "typeRoots": ["node_modules/@types"],
+    "jsx": "react",
+    "esModuleInterop": true,
+    "strict": true,
+   "types": [
+      "vitest/globals",
+      "@testing-library/react-hooks"
+    ]
+  },
+  "include": [
+    "src/**/*.ts",
+    "src/**/*.tsx",
+    "vite.config.ts",
+    ".eslintrc.cjs",
+    "src/**/*.test.ts",  
+    "src/**/*.test.tsx"  
+  ]
+}
